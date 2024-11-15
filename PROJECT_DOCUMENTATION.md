@@ -22,4 +22,4 @@
 
 ### Name 3 - Lars:
 
--   Handled [specific sections], covering [specific topics or features].
+-   Handled some javascript, covering getCookie and setCookie functions and the username checking.
