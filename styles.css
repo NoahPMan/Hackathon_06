@@ -1,0 +1,91 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: LightGray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    color: DarkSlateGray;
+}
+
+/* Webpage Container */
+.webpage-container {
+    background-color: White;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Webpage Title */
+#webpage-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: MediumSeaGreen;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+form label {
+    font-size: 1.1rem;
+    color: DimGray;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    padding: 12px;
+    font-size: 1.1rem;
+    border: 1px solid LightGray;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+form input[type="submit"], button[type="save-name-btn"] {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: MediumSeaGreen;
+    color: White;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-top: 10px;  /* Added margin to space buttons from the form fields */
+}
+
+form input[type="submit"]:hover, button[type="save-name-btn"]:hover {
+    background-color: SeaGreen;
+}
+
+/* Button Styles for Save Name */
+button[type="save-name-btn"] {
+    background-color: Gold;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="save-name-btn"]:hover {
+    background-color: Goldenrod;
+}
